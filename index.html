@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Management</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<h2 style="color: black;">Library ManFagement System </h2>
+
+<input id="bid" placeholder="Book ID">
+<input id="title" placeholder="Book Name">
+<input id="author" placeholder="Author">
+<button onclick="addBook()">Add Book</button>
+
+<br><br>
+<input id="searchId" placeholder="Book ID">
+<button onclick="getBook()">Search</button>
+<button onclick="deleteBook()">Delete</button>
+
+<h3>Books List</h3>
+<button onclick="loadBooks()">Load Books</button>
+<ul id="list"></ul>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

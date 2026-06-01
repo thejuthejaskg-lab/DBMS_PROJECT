@@ -1,0 +1,4 @@
+body { font-family: Arial; background:linear-gradient(135deg,#f911bb,#3be8bf); padding: 20px }
+input { padding: 5px; margin: 5px; color:black;background-color:whitesmoke }
+button { padding: 6px 10px; margin: 5px; color:black;background-color: whitesmoke; }
+li { background: white; margin: 5px; padding: 5px }
